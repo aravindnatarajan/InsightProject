@@ -1,0 +1,23 @@
+=========================================================================================
+Hello, My name is Aravind. My app is called "Signs" and it is a tool to teach English to deaf children using American Sign Language. I got interested in sign language about 2 years ago, and started taking classes at the WPSD, where I saw these kids in the first grade and second grade, who were so fluent in signing, while I was still struggling with my first 20 signs or so. Since this is such a visual language, I thought it would be a good idea to use data science and computers to teach basic English to kids using their first language which is ASL. 
+
+<<click>>
+
+To keep the kids interested, the signs come from well known story books: 
+=========================================================================================
+You can pick any book by clicking on the picture. Let's say we pick Peter Pan. It plays a video from the book. You can play it as many times as you wish. In this case, the sign is PIRATE.
+
+Phonemes tell you how to speak the word. You can full screen any of the videos. In the interest of time, I have done that already. The way you learn to speak when you are deaf is to watch some one speaking a word and try the copy the mouth movement, so it is helpful to see large videos.
+
+Then you can go back to the home page and pick another book and you get a different vocabulary. This is a fun way to learn new words.
+=========================================================================================
+To make this, I used about 3500 sign videos from HandSpeak.com, the corpus of words was obtained from the Gutenberg project. For the phonemes, I used CM's Arpabet dictionary, 40 phonemes, and the fingerspelling alphabet from LifePrint.
+
+I use Python's Natural Language Processing Toolkit to work with text. For part of speech tagging, I use a bigram language model which looks at each word in the context of the preceding word, and it performs better than the simpler unigram model.
+
+For the word recommender, I use a Bayes classifier to suggest a set of words that can be said to describe a certain book. The Bayes process automatically down-weights words that are very common, so we should get words that are more specific to a given book, in this case Arabian Nights. Finally, I break the word into its phonemes.
+=========================================================================================
+I tried this program on the general public using the Amazon Web Services Mechanic Turk program.  Each sign has 5 choices, so random guessing would give a 20% chance of success. I find about a 50% chance of success among the general population, which is about 10 standard deviations better than random, with 400 signs. So I think the app can also be used by hearing people who are curious about signing.
+=========================================================================================
+This is me. I worked as a radio astronomer, collecting data on first star formation. Outside of my day job, I like hiking and traveling, and I studied at the University of Florida and Carnegie Mellon.
+=========================================================================================

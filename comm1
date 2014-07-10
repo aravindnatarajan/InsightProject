@@ -1,0 +1,12 @@
+python read_book.py kids/BlackBeauty.txt > analysis_BlackBeauty.dat
+python read_book.py kids/arabian_nights.txt > analysis_arabian_nights.dat
+python read_book.py kids/gift_magi.txt > analysis_gift_magi.dat
+python read_book.py kids/jack_jill.txt > analysis_jack_jill.dat
+python read_book.py kids/hiawatha.txt > analysis_hiawatha.dat
+python read_book.py kids/heidi.txt > analysis_heidi.dat
+python read_book.py kids/anne_green_gables.txt > analysis_anne_green_gables.dat
+python read_book.py kids/jungle_book.txt > analysis_jungle_book.dat
+python read_book.py kids/wizard_of_oz.txt > analysis_wizard_of_oz.dat
+python read_book.py kids/AliceWonderland.txt > analysis_AliceWonderland.dat
+python read_book.py kids/peter_pan.txt > analysis_peter_pan.dat
+python read_book.py kids/secret_garden.txt > analysis_secret_garden.datpython read_book.py kids/footprints_sea_shore.txt > analysis_footprints_sea_shore.datpython read_book.py kids/treasure_island.txt > analysis_treasure_island.datpython read_book.py kids/mother_goose.txt > analysis_mother_goose.dat
